@@ -179,7 +179,7 @@ hr {
     background-color: #D3091D;
     padding: .6% 1.2% .6% 1.2%;
     width: 100%;
-    opacity: .8;
+    opacity: 1;
     border-radius: 5%;
     font-size: 1vw;
 }
@@ -189,8 +189,8 @@ hr {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #D3091D;
-    background-color: #D3091D;
+    border-color: #9E0A26;
+    background-color: #9E0A26;
     opacity: 1;
     color: #ecf0f1;
 }
@@ -217,13 +217,13 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #D3091D;
+    background-color: #9E0A26;
     color: #ecf0f1;
     opacity: 1;
 }
 
 .btn-primary .badge {
-    background-color: #D3091D;
+    background-color: #9E0A26;
     opacity: 1;
     color: #ecf0f1;
 }
@@ -238,8 +238,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-blue:active,
 .btn-blue.active,
 .open .dropdown-toggle.btn-blue {
-    border-color: #1A5CE5;
-    background-color: #1A5CE5;
+    border-color: #1240B2;
+    background-color: #1240B2;
     opacity: 1;
     color: #ecf0f1;
 }
@@ -266,13 +266,13 @@ fieldset[disabled] .btn-blue:active,
 .btn-blue.disabled.active,
 .btn-blue[disabled].active,
 fieldset[disabled] .btn-blue.active {
-    background-color: #1A5CE5;
+    background-color: #1240B2;
     color: #ecf0f1;
     opacity: 1;
 }
 
 .btn-primary .badge {
-    background-color: #1A5CE5;
+    background-color: #1240B2;
     opacity: 1;
     color: #ecf0f1;
 }

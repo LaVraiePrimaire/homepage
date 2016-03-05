@@ -1,0 +1,198 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="J'ai envie d'avoir envie en 2017. Je participe à la Vraie Primaire !">
+    <meta name="author" content="mike yu">
+    <!-- Facebook opengraph tags for better share menu -->
+    <meta property="og:url"                content="http://www.lavraieprimaire.fr/" />
+    <meta property="og:title"              content="La Vraie Primaire" />
+    <meta property="og:description"        content="J'ai envie d'avoir envie en 2017. Je participe à la Vraie Primaire !" />
+    <meta property="og:image"              content="http://www.lavraieprimaire.fr/img/logos/lvplogo.png" />
+    <meta property="fb:app_id"             content="526386134210424" />
+
+    <title>La Vraie Primaire</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/nomination.css" rel="stylesheet">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+    <link type="text/css" href="css/jquery-ui.min.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/video.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body id="page-top" class="index">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class ="row">
+                <div class="col-xs-12 col-sm-1 col-md-2">                    
+                </div>
+                <div class="col-xs-12 col-sm-10 col-md-8">
+                    <div class="col-xs-6">
+                        <a href="index.html"><img src ="img/logos/lvplogo.png" class="logo img-left"></a>
+                    </div>
+                    <div class="col-xs-3 btn-holder">
+                    </div>
+                    <div class="col-xs-3 btn-holder">
+                        <button class="btn btn-primary btn-blue btn-top">Join the debate</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-1 col-md-2">                    
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <div class="container" id="organizers">
+		<h2 class="section-heading">Propose a candidate</h2>
+		<hr>
+		<div class="col-xs-12 col-sm-1 col-md-2"></div>
+        <div class="col-xs-12 col-sm-10 col-md-8">
+			<form class="description" id="formname" name="formname" action="https://my.sendinblue.com/users/subscribeembed/js_id/2c40i/id/1" onsubmit="return false;">
+				<div class="row">
+					<input type="checkbox" name="selfnominate" style="margin-right:5px"> Je propose ma candidature
+				</div>
+				<div class="row">
+					<input type="checkbox" name="selfnominate" style="margin-right:5px"> Je propose quelqu’un d’autre comme candidat<br>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-5">
+						<div class="row">
+							<h6>Candidate prenom:</h6>
+							<input type="text" class="input" name="firstname">
+						</div>
+						<div class="row">
+							<h6>Candidate nom:</h6>
+							<input type="text" class="input" name="lastname">							
+						</div>
+						<div class="row">
+							<h6>Lien vers un site internet:</h6>
+							<input type="text" class="input" name="webpage">
+						</div>
+						<div class="row">
+							<h6>Lien vers une page facebook:</h6>
+							<input type="text" class="input" name="facebook">							
+						</div>
+						<div class="row">
+							<h6>Ma photo ou celle du candidat</h6>
+							<input type="file" name="pic" accept="image/*">
+						</div>
+						<div class="row" style="margin-top:15px">
+							<input type="checkbox" name="agree" style="margin-right:5px">J’ai lu les 3 conditions pour proposer un candidat
+						</div>
+					</div>
+					<div class="col-sm-2"></div>
+					<div class="col-xs-6 col-sm-5">
+						<div class="row">
+							<h6>Mon nom:</h6>
+							<input type="text" class="input" name="nomname">
+						</div>
+						<div class="row">
+							<h6>Mon adresse:</h6>
+							<textarea name="address" class="input big-input"></textarea>
+						</div>
+						<div class="row">
+							<h6>Mon adresse postale:</h6>
+							<textarea name="postaddress" class="input big-input"></textarea>							
+						</div>
+						<div class="row">
+							<div class="g-recaptcha" data-sitekey="6LejARoTAAAAALRV7vceFIOvx4ljynbyttrwBvm7"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-1">
+					</div>
+					<div class="col-xs-12 col-sm-10">
+						<i><p>En cliquant sur candidature je vais recevoir un mail me demandant de préparer deux documents (photocopie de ma carte d’identité ou de mon passeport + un extrait de casier judiciaire si c’est ma candidature). Et quand nous aurons tout validé ensemble je recevrai par mail le lien pour payer les cent euros.</p></i>
+					<div class="col-xs-12 col-sm-1">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-sm-4">
+					</div>
+					<div class="col-xs-6 col-sm-4">
+						<button type="submit" id="submissionBtn" class="btn btn-primary">Envoyer la candidature</button></div>
+					<div class="col-xs-3 col-sm-4">
+					</div>
+				</div>
+
+
+	            <input type="hidden" name="js_id" id="js_id" value="2c40i">
+	            <input type="hidden" name="listid" id="listid" value="2">
+	            <input type="hidden" name="from_url" id="from_url" value="yes">
+	            <input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+	        </form>
+    	</div>
+		<div class="col-xs-12 col-sm-1 col-md-2"></div>	
+    </div>
+
+    <hr style="margin-top:2%">
+	<footer>
+        <div class="container">
+            <div>
+                <div class="col-xs-4">
+                    <span class="copyright">&copy;2016, LaVraiePrimaire</span>
+                </div>
+                <div class="col-xs-4">
+                    <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/La-vraie-Primaire-191854841168760/" target="_blank"><img src="img/facebook.png" class="img-responsive"></a>
+                        </li>
+                        <li></li>
+                        <li><a href="https://twitter.com/lavraieprimaire"><img src="img/twitter.png" class="img-responsive"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Notre Équipe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script> -->
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/aboutus.js"></script>
+
+</body>
+
+</html>
+
+

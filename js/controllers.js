@@ -6,18 +6,23 @@ candidateApp.controller('candidateListCtrl', function($scope) {
   $scope.candidates = [
     {'name': 'shannon chiu',
      'snippet': 'La Fronte Nationale',
- 	 'image': '/img/candidates/shannon.png'},
+ 	 'pictureURL': '/img/candidates/shannon.png',
+ 	 'pageurl': 'http://www.google.com'},
     {'name': 'mike yu',
      'snippet': 'total fuccboi',
- 	 'image': '/img/candidates/mike.jpg'},
+ 	 'pictureURL': '/img/candidates/mike.jpg',
+ 	 'pageurl': 'http://www.google.com'},
     {'name': 'jaxon',
      'snippet': 'or is it jason?',
- 	 'image': '/img/candidates/unknown.png'},
+ 	 'pictureURL': '/img/candidates/unknown.png',
+ 	 'pageurl': 'http://www.google.com'},
  	{'name': 'yay',
      'snippet': 'woo?',
- 	 'image': '/img/candidates/emma.jpg'},
+ 	 'pictureURL': '/img/candidates/emma.jpg',
+ 	 'pageurl': 'http://www.google.com'},
  	{'name': 'meredith manda',
      'snippet': 'lol?',
- 	 'image': '/img/candidates/meredith.png'}
+ 	 'pictureURL': '/img/candidates/meredith.png',
+ 	 'pageurl': 'http://www.google.com'}
   ];
 });

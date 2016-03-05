@@ -1,0 +1,28 @@
+h6{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.input {
+    background-color: #fff;
+    color: #211E16;
+    padding: .6% 1.2%;
+    margin: 2% 5%;
+    width: 90%;
+    border-radius: 3px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    font-size: 100%;
+}
+
+
+.big-input {
+    height: 65;
+}
+
+.g-recaptcha {
+    padding: .6% 1.2%;
+    margin: 2% 5%;
+    width: 90%;
+}

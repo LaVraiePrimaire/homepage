@@ -6,6 +6,11 @@
   background-image: url(http://csshexagon.com/img/meow.jpg);
   background-size: auto 53.1162px;
   background-position: center;
+  opacity: .8;
+}
+
+.hexagon:hover {
+  opacity: 1;
 }
 
 .hexTop,

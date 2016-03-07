@@ -1,12 +1,14 @@
 $('#formname').submit(function() {
     var post_data = $('#formname').serialize();
+    var url ='' + $('#formname').attr('action');
+    console.log(url);
     $.ajax({
-    	// Set in the HTML so is easier to edit
-        url:$('#formname').attr('action'),
+        url: url,
         data : post_data,
         dataType:'json',
-        type:'POST',
+        method: 'POST',
         success:function(data){
+            console.log('success');
             var textbox = document.querySelector("#email");
             textbox.value = "";
             textbox.placeholder = "Merci!";

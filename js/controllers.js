@@ -1,15 +1,15 @@
 'use strict';
 
-var candidateApp = angular.module('candidateApp', []);
+var candidateApp = angular.module('candidateApp', ['underscore']);
 
-candidateApp.controller('candidateListCtrl', function($scope, $http) {
+candidateApp.controller('candidateListCtrl', function($scope, $http, _) {
   $scope.candidates = [];
   $http.defaults.cache = false;
   $http.get('http://lvp.mod.bz/api/candidate/all', {
       withCredentials: true
   }).then(function(response) {
-      $scope.candidates = response.data.filter(function(cand) { return cand.firstName != 'Charte'; });
-      console.log('candidates: %j', response.data);
+      var filteredCandidates = response.data.filter(function(cand) { return cand.firstName != 'Charte'; });
+      $scope.candidates = _.sample(filteredCandidates, 6); 
   }, function(response) {
       console.log('error: can\'t fetch candidates from api');
   });

@@ -728,3 +728,22 @@ li {
     margin-top:1%;
     margin-bottom:1%;
 }
+
+@media(min-width:1681px) {
+    p {
+        font-size: 36px;
+    }
+    .email-input {
+        font-size: 18px;
+    }
+    .btn-primary {
+        font-size: 12px;
+    }
+
+    .btn-top {
+        font-size: 11px;
+    }
+    header .intro-text .intro-heading {
+        font-size: 70px;
+    }   
+}

@@ -693,6 +693,24 @@ li {
     height: auto;
 }
 
+
+.valueprop{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.valueitem{
+    font-size: 8px;
+    min-height: 3vh;
+    height: auto;
+    margin: 2px;
+}
+
+
+
 #jesuiselecteur {
     border: 2px #D3091D solid;
     border-radius: 3px;

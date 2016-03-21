@@ -9,11 +9,14 @@ $('#formname').submit(function() {
         method: 'POST',
         success:function(data){
             console.log('success');
-            var textbox = document.querySelector("#email");
-            textbox.value = "";
-            textbox.placeholder = "Merci!";
-            textbox.style.opacity = .2;
-            textbox.readOnly = true;
+            alert('Merci!')
+            var textboxs = document.querySelectorAll(".input");
+            for (var i = 0; i < textboxs.length; i++) {
+                textbox = textboxs[i];
+                textbox.value = "";
+                textbox.style.opacity = .2;
+                textbox.readOnly = true;
+            }
             // textbox.style.display = "none";
             var button = document.querySelector("#submissionBtn");
             // button.style.display = "none";

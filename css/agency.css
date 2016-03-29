@@ -271,6 +271,50 @@ fieldset[disabled] .btn-blue.active {
     opacity: 1;
 }
 
+.btn-charcoal {
+    background-color: #63666A;
+    border-color: #63666A;
+}
+
+.btn-charcoal:hover,
+.btn-charcoal:focus,
+.btn-charcoal:active,
+.btn-charcoal.active,
+.open .dropdown-toggle.btn-charcoal {
+    border-color: #49494D;
+    background-color: #49494D;
+    opacity: 1;
+    color: #ecf0f1;
+}
+
+.btn-charcoal:active,
+.btn-charcoal.active,
+.open .dropdown-toggle.btn-charcoal {
+    background-image: none;
+    opacity: 1;
+}
+
+.btn-charcoal.disabled,
+.btn-charcoal[disabled],
+fieldset[disabled] .btn-charcoal,
+.btn-charcoal.disabled:hover,
+.btn-charcoal[disabled]:hover,
+fieldset[disabled] .btn-charcoal:hover,
+.btn-charcoal.disabled:focus,
+.btn-charcoal[disabled]:focus,
+fieldset[disabled] .btn-charcoal:focus,
+.btn-charcoal.disabled:active,
+.btn-charcoal[disabled]:active,
+fieldset[disabled] .btn-charcoal:active,
+.btn-charcoal.disabled.active,
+.btn-charcoal[disabled].active,
+fieldset[disabled] .btn-charcoal.active {
+    background-color: #49494D;
+    color: #ecf0f1;
+    opacity: 1;
+}
+
+
 .btn-primary .badge {
     background-color: #1240B2;
     opacity: 1;

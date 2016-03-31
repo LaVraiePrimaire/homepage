@@ -1,3 +1,7 @@
+.medium {
+  line-height: 1.6;
+}
+
 .team-member {
 	text-align:center;
 }
@@ -8,11 +12,22 @@
     border:7px solid #ecf0f1;
 }
 
-.team-member h4{margin-top:25px;margin-bottom:0;text-transform:none; text-align: center}
-.team-member p{margin:0, 5px, 0, 5px; font-size: 12px;}
+.team-member h4{
+  margin-top:25px;
+  margin-bottom:0;
+  text-transform:none;
+  text-align: center
+}
+
+.team-member p{
+  margin:0, 5px, 0, 5px;
+  font-size: 12px;
+  line-height: 1.8;
+}
 
 .organizer p{
     font-size: 14;
+    line-height: 1.8;
 }
 
 span {
@@ -105,7 +120,7 @@ span {
 
 .carousel-inner p {
 	font-size: 12;
-	line-height: 1;
+	line-height: 1.8;
 }
 
 .section-heading {
